@@ -6,6 +6,19 @@
 //  Copyright © 2024 mobdevfactory12. All rights reserved.
 //
 
-final class GeneratorRouter: GeneratorRouterInput {
+import UIKit
 
+final class GeneratorRouter: GeneratorRouterProtocol {
+    var navigationController: UINavigationController?
+
+    func showDetailsScene(avatarName: String, viperNumber: Int) {
+        guard let navigationController else { return }
+
+        let detailsViewController = DetailsViewController()
+        detailsViewController.avatarName = avatarName
+        detailsViewController.viperNumber = viperNumber
+
+        navigationController.pushViewController(detailsViewController, animated: true)
+    }
 }
+

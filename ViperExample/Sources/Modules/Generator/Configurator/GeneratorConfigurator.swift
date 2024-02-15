@@ -6,21 +6,19 @@
 //  Copyright © 2024 mobdevfactory12. All rights reserved.
 //
 
-import UIKit
-
-final class GeneratorModuleConfigurator {
-    func configure(viewController: GeneratorViewController) {
-
+final class GeneratorConfigurator: GeneratorConfiguratorProtocol {
+    func configure(with viewController: GeneratorViewController) {
         let router = GeneratorRouter()
+        router.navigationController = viewController.navigationController
 
         let presenter = GeneratorPresenter()
         presenter.view = viewController
         presenter.router = router
 
         let interactor = GeneratorInteractor()
-        interactor.output = presenter
+        interactor.presenter = presenter
 
         presenter.interactor = interactor
-        viewController.output = presenter
+        viewController.presenter = presenter
     }
 }
