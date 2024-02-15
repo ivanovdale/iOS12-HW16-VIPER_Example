@@ -1,5 +1,5 @@
 //
-//  GeneratorInteractorOutput.swift
+//  GeneratorRouterProtocol.swift
 //  ViperExample
 //
 //  Created by ivanovdale on 15/02/2024.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol GeneratorInteractorOutput: AnyObject {
-
+protocol GeneratorRouterProtocol {
+    func showDetailsScene(avatarName: String, viperNumber: Int)
 }
