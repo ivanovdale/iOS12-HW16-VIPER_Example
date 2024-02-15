@@ -1,5 +1,5 @@
 //
-//  DetailsInteractorInput.swift
+//  DetailsRouterProtocol.swift
 //  ViperExample
 //
 //  Created by ivanovdale on 15/02/2024.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol DetailsInteractorInput {
-
+protocol DetailsRouterProtocol {
+    func closeCurrentScene()
 }
