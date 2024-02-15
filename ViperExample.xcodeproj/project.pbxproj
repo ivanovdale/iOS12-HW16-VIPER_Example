@@ -270,8 +270,11 @@
 			dependencies = (
 			);
 			name = ViperExample;
+			packageProductDependencies = (
+				007C07832B7E470B000BF046 /* SnapKit */,
+			);
 			productName = ViperExample;
-			productReference = 007C07612B7E2024000BF046 /* ViperExample.app */;
+			productReference = 007C07812B7E36BA000BF046 /* ViperExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -298,6 +301,9 @@
 				Base,
 			);
 			mainGroup = 007C07582B7E2024000BF046;
+			packageReferences = (
+				007C07822B7E470B000BF046 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 007C07582B7E2024000BF046;
 			projectDirPath = "";
 			projectRoot = "";
@@ -568,6 +574,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		007C07822B7E470B000BF046 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		007C07832B7E470B000BF046 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 007C07822B7E470B000BF046 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 007C07592B7E2024000BF046 /* Project object */;
 }
