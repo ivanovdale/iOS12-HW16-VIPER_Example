@@ -6,8 +6,6 @@
 //  Copyright © 2024 mobdevfactory12. All rights reserved.
 //
 
-final class DetailsInteractor: DetailsInteractorInput {
-
-    weak var output: DetailsInteractorOutput!
-
+final class DetailsInteractor: DetailsInteractorProtocol {
+    weak var presenter: DetailsPresenterProtocol!
 }

@@ -8,19 +8,19 @@
 
 import UIKit
 
-final class DetailsModuleConfigurator {
-    func configure(viewController: DetailsViewController) {
-
+final class DetailsConfigurator: DetailsConfiguratorProtocol {
+    func configure(with viewController: DetailsViewController) {
         let router = DetailsRouter()
+        router.navigationController = viewController.navigationController
 
         let presenter = DetailsPresenter()
         presenter.view = viewController
         presenter.router = router
 
         let interactor = DetailsInteractor()
-        interactor.output = presenter
+        interactor.presenter = presenter
 
         presenter.interactor = interactor
-        viewController.output = presenter
+        viewController.presenter = presenter
     }
 }

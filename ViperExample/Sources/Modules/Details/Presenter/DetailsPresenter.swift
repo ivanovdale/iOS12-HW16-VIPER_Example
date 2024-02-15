@@ -6,13 +6,12 @@
 //  Copyright © 2024 mobdevfactory12. All rights reserved.
 //
 
-final class DetailsPresenter: DetailsModuleInput, DetailsViewOutput, DetailsInteractorOutput {
+final class DetailsPresenter: DetailsPresenterProtocol {
+    weak var view: DetailsViewProtocol!
+    var interactor: DetailsInteractorProtocol!
+    var router: DetailsRouterProtocol!
 
-    weak var view: DetailsViewInput!
-    var interactor: DetailsInteractorInput!
-    var router: DetailsRouterInput!
-
-    func viewIsReady() {
-
+    func okButtonPressed() {
+        router.closeCurrentScene()
     }
 }

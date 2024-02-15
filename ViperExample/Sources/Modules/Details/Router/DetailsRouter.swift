@@ -6,6 +6,15 @@
 //  Copyright © 2024 mobdevfactory12. All rights reserved.
 //
 
-final class DetailsRouter: DetailsRouterInput {
+import UIKit
+
+final class DetailsRouter: DetailsRouterProtocol {
+    var navigationController: UINavigationController?
+
+    func closeCurrentScene() {
+        guard let navigationController else { return }
+
+        navigationController.popViewController(animated: true)
+    }
 
 }

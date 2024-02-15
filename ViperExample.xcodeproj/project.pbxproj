@@ -11,58 +11,55 @@
 		007C07672B7E2024000BF046 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C07662B7E2024000BF046 /* SceneDelegate.swift */; };
 		007C076E2B7E2029000BF046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007C076D2B7E2029000BF046 /* Assets.xcassets */; };
 		007C07712B7E2029000BF046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007C076F2B7E2029000BF046 /* LaunchScreen.storyboard */; };
+		007C07842B7E470B000BF046 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 007C07832B7E470B000BF046 /* SnapKit */; };
+		007C07862B7E6611000BF046 /* GeneratorConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C07852B7E6611000BF046 /* GeneratorConfiguratorProtocol.swift */; };
+		007C07882B7E785D000BF046 /* DetailsConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C07872B7E785D000BF046 /* DetailsConfiguratorProtocol.swift */; };
 		00A5D60435F0DFA48C4D6AF5 /* GeneratorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A452FEE134827EF223403B /* GeneratorInteractor.swift */; };
 		297138122CFC6B22F331A960 /* GeneratorConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E04E8E9A965F55892E0B4 /* GeneratorConfigurator.swift */; };
-		2AFEDCA8F0EB36196C692FE7 /* GeneratorRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB10C4E19DE65E4DCD505C7 /* GeneratorRouterInput.swift */; };
-		2F9B3310A5834000EA2CC9F4 /* GeneratorViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64946383FCE52AD3A443F033 /* GeneratorViewInput.swift */; };
+		2AFEDCA8F0EB36196C692FE7 /* GeneratorRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB10C4E19DE65E4DCD505C7 /* GeneratorRouterProtocol.swift */; };
+		2F9B3310A5834000EA2CC9F4 /* GeneratorViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64946383FCE52AD3A443F033 /* GeneratorViewProtocol.swift */; };
 		36BC165AB67999F0FB571205 /* DetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F53E6221172737D16BEA7 /* DetailsInteractor.swift */; };
 		40B337DC45A205DE055D9D94 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB73A87CCFAF68A660CE87 /* DetailsViewController.swift */; };
-		44B1E5684834C3AAE40FF70E /* DetailsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B6F79727DC16663DC289 /* DetailsInteractorInput.swift */; };
-		4AA9DFB22541BEDCCAE42483 /* DetailsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DC487E71920AF86495C4CA /* DetailsViewInput.swift */; };
-		4D817B1EE7651CA206E4BCEB /* DetailsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD03DB7415527679C8EE4BF0 /* DetailsRouterInput.swift */; };
+		4AA9DFB22541BEDCCAE42483 /* DetailsViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DC487E71920AF86495C4CA /* DetailsViewProtocol.swift */; };
+		4D817B1EE7651CA206E4BCEB /* DetailsRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD03DB7415527679C8EE4BF0 /* DetailsRouterProtocol.swift */; };
 		5150F7CA48D555189A7A8FCD /* DetailsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3028D8220F56D0B902875D6 /* DetailsConfigurator.swift */; };
-		543471E7AFAA5AF2A73D75AC /* DetailsModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098993F0983DE4170FAC6711 /* DetailsModuleInput.swift */; };
-		6D5F74EEDB7DD99F2C239C36 /* DetailsInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6408C4F7CD0A42C265913B80 /* DetailsInteractorOutput.swift */; };
+		6D5F74EEDB7DD99F2C239C36 /* DetailsInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6408C4F7CD0A42C265913B80 /* DetailsInteractorProtocol.swift */; };
 		7692F9D2BE7673C604047394 /* GeneratorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278D7706706DF345DC565394 /* GeneratorRouter.swift */; };
-		7ACCB20EF27927614BB140F3 /* GeneratorModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A747CB061B04ADBDF84FB8E9 /* GeneratorModuleInput.swift */; };
-		88A9F2A91B81E92298C6723B /* GeneratorInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB2172CA204BB7C9065CA01 /* GeneratorInteractorOutput.swift */; };
-		8AD4833CA100FFB7E879F23B /* GeneratorInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C21B10A8235775C3BDE6B /* GeneratorInteractorInput.swift */; };
+		8AD4833CA100FFB7E879F23B /* GeneratorInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C21B10A8235775C3BDE6B /* GeneratorInteractorProtocol.swift */; };
 		936FDE120534941AB4F70E09 /* GeneratorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF392C886664C6C2A391FF /* GeneratorPresenter.swift */; };
-		940ECC0B87D633C391F1EAC9 /* GeneratorViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8884E9FB9AE44F744E003816 /* GeneratorViewOutput.swift */; };
-		DAE1D641996FAB0ACB8CF091 /* DetailsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B66AE94194694F6D6D404 /* DetailsViewOutput.swift */; };
+		940ECC0B87D633C391F1EAC9 /* GeneratorPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8884E9FB9AE44F744E003816 /* GeneratorPresenterProtocol.swift */; };
+		DAE1D641996FAB0ACB8CF091 /* DetailsPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B66AE94194694F6D6D404 /* DetailsPresenterProtocol.swift */; };
 		E0F047EE4D267C15CC9AE6B6 /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825162D5D9CAFD51F8226A6 /* DetailsPresenter.swift */; };
 		EB2E1316BB1DA38C87539283 /* GeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2705FB2C54C2DCCC707CC283 /* GeneratorViewController.swift */; };
 		EB7FCC88097C07AE39ED6B55 /* DetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAA369E6F975874F8555B1F /* DetailsRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		007C07612B7E2024000BF046 /* ViperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ViperExample.app; path = "/Users/daniilwork/XCodeProjects/ViperExample/build/Debug-iphoneos/ViperExample.app"; sourceTree = "<absolute>"; };
 		007C07642B7E2024000BF046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		007C07662B7E2024000BF046 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		007C076D2B7E2029000BF046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		007C07702B7E2029000BF046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		007C07722B7E2029000BF046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		098993F0983DE4170FAC6711 /* DetailsModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsModuleInput.swift; sourceTree = "<group>"; };
-		0FB2172CA204BB7C9065CA01 /* GeneratorInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorInteractorOutput.swift; sourceTree = "<group>"; };
+		007C07812B7E36BA000BF046 /* ViperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		007C07852B7E6611000BF046 /* GeneratorConfiguratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorConfiguratorProtocol.swift; sourceTree = "<group>"; };
+		007C07872B7E785D000BF046 /* DetailsConfiguratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsConfiguratorProtocol.swift; sourceTree = "<group>"; };
 		249F53E6221172737D16BEA7 /* DetailsInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsInteractor.swift; sourceTree = "<group>"; };
 		2705FB2C54C2DCCC707CC283 /* GeneratorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorViewController.swift; sourceTree = "<group>"; };
 		278D7706706DF345DC565394 /* GeneratorRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorRouter.swift; sourceTree = "<group>"; };
-		2AB10C4E19DE65E4DCD505C7 /* GeneratorRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorRouterInput.swift; sourceTree = "<group>"; };
-		33DC487E71920AF86495C4CA /* DetailsViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsViewInput.swift; sourceTree = "<group>"; };
+		2AB10C4E19DE65E4DCD505C7 /* GeneratorRouterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorRouterProtocol.swift; sourceTree = "<group>"; };
+		33DC487E71920AF86495C4CA /* DetailsViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsViewProtocol.swift; sourceTree = "<group>"; };
 		3AAB73A87CCFAF68A660CE87 /* DetailsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		5DAA369E6F975874F8555B1F /* DetailsRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsRouter.swift; sourceTree = "<group>"; };
-		6408C4F7CD0A42C265913B80 /* DetailsInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsInteractorOutput.swift; sourceTree = "<group>"; };
-		64946383FCE52AD3A443F033 /* GeneratorViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorViewInput.swift; sourceTree = "<group>"; };
+		6408C4F7CD0A42C265913B80 /* DetailsInteractorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsInteractorProtocol.swift; sourceTree = "<group>"; };
+		64946383FCE52AD3A443F033 /* GeneratorViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorViewProtocol.swift; sourceTree = "<group>"; };
 		712E04E8E9A965F55892E0B4 /* GeneratorConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorConfigurator.swift; sourceTree = "<group>"; };
-		7E36B6F79727DC16663DC289 /* DetailsInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsInteractorInput.swift; sourceTree = "<group>"; };
-		846C21B10A8235775C3BDE6B /* GeneratorInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorInteractorInput.swift; sourceTree = "<group>"; };
-		8884E9FB9AE44F744E003816 /* GeneratorViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorViewOutput.swift; sourceTree = "<group>"; };
-		A747CB061B04ADBDF84FB8E9 /* GeneratorModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorModuleInput.swift; sourceTree = "<group>"; };
+		846C21B10A8235775C3BDE6B /* GeneratorInteractorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorInteractorProtocol.swift; sourceTree = "<group>"; };
+		8884E9FB9AE44F744E003816 /* GeneratorPresenterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorPresenterProtocol.swift; sourceTree = "<group>"; };
 		B825162D5D9CAFD51F8226A6 /* DetailsPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
-		BD03DB7415527679C8EE4BF0 /* DetailsRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsRouterInput.swift; sourceTree = "<group>"; };
+		BD03DB7415527679C8EE4BF0 /* DetailsRouterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsRouterProtocol.swift; sourceTree = "<group>"; };
 		C3028D8220F56D0B902875D6 /* DetailsConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsConfigurator.swift; sourceTree = "<group>"; };
 		C6A452FEE134827EF223403B /* GeneratorInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorInteractor.swift; sourceTree = "<group>"; };
-		DE6B66AE94194694F6D6D404 /* DetailsViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsViewOutput.swift; sourceTree = "<group>"; };
+		DE6B66AE94194694F6D6D404 /* DetailsPresenterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsPresenterProtocol.swift; sourceTree = "<group>"; };
 		F9AF392C886664C6C2A391FF /* GeneratorPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007C07842B7E470B000BF046 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				007C07632B7E2024000BF046 /* ViperExample */,
+				007C07812B7E36BA000BF046 /* ViperExample.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				712E04E8E9A965F55892E0B4 /* GeneratorConfigurator.swift */,
+				007C07852B7E6611000BF046 /* GeneratorConfiguratorProtocol.swift */,
 			);
 			path = Configurator;
 			sourceTree = "<group>";
@@ -149,7 +149,7 @@
 		0DCC828765977CFA6CA73345 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				2AB10C4E19DE65E4DCD505C7 /* GeneratorRouterInput.swift */,
+				2AB10C4E19DE65E4DCD505C7 /* GeneratorRouterProtocol.swift */,
 				278D7706706DF345DC565394 /* GeneratorRouter.swift */,
 			);
 			path = Router;
@@ -170,7 +170,7 @@
 		39615E6B17644C97E00D82BB /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				BD03DB7415527679C8EE4BF0 /* DetailsRouterInput.swift */,
+				BD03DB7415527679C8EE4BF0 /* DetailsRouterProtocol.swift */,
 				5DAA369E6F975874F8555B1F /* DetailsRouter.swift */,
 			);
 			path = Router;
@@ -179,8 +179,7 @@
 		3F54AC038C7F7AD2AA3CC22D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				33DC487E71920AF86495C4CA /* DetailsViewInput.swift */,
-				DE6B66AE94194694F6D6D404 /* DetailsViewOutput.swift */,
+				33DC487E71920AF86495C4CA /* DetailsViewProtocol.swift */,
 				3AAB73A87CCFAF68A660CE87 /* DetailsViewController.swift */,
 			);
 			path = View;
@@ -189,8 +188,7 @@
 		5DAC685800CB0935801F38A5 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				7E36B6F79727DC16663DC289 /* DetailsInteractorInput.swift */,
-				6408C4F7CD0A42C265913B80 /* DetailsInteractorOutput.swift */,
+				6408C4F7CD0A42C265913B80 /* DetailsInteractorProtocol.swift */,
 				249F53E6221172737D16BEA7 /* DetailsInteractor.swift */,
 			);
 			path = Interactor;
@@ -199,8 +197,7 @@
 		5EBAD2D545599A7FB5FFFB69 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				64946383FCE52AD3A443F033 /* GeneratorViewInput.swift */,
-				8884E9FB9AE44F744E003816 /* GeneratorViewOutput.swift */,
+				64946383FCE52AD3A443F033 /* GeneratorViewProtocol.swift */,
 				2705FB2C54C2DCCC707CC283 /* GeneratorViewController.swift */,
 			);
 			path = View;
@@ -222,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				C3028D8220F56D0B902875D6 /* DetailsConfigurator.swift */,
+				007C07872B7E785D000BF046 /* DetailsConfiguratorProtocol.swift */,
 			);
 			path = Configurator;
 			sourceTree = "<group>";
@@ -229,7 +227,7 @@
 		84E94D956EE509E4B3F240EF /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				A747CB061B04ADBDF84FB8E9 /* GeneratorModuleInput.swift */,
+				8884E9FB9AE44F744E003816 /* GeneratorPresenterProtocol.swift */,
 				F9AF392C886664C6C2A391FF /* GeneratorPresenter.swift */,
 			);
 			path = Presenter;
@@ -238,7 +236,7 @@
 		AF5353F3F6FBCCC4C5A07A7C /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				098993F0983DE4170FAC6711 /* DetailsModuleInput.swift */,
+				DE6B66AE94194694F6D6D404 /* DetailsPresenterProtocol.swift */,
 				B825162D5D9CAFD51F8226A6 /* DetailsPresenter.swift */,
 			);
 			path = Presenter;
@@ -247,8 +245,7 @@
 		DC4DCA4EE87F4D386E274CCC /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				846C21B10A8235775C3BDE6B /* GeneratorInteractorInput.swift */,
-				0FB2172CA204BB7C9065CA01 /* GeneratorInteractorOutput.swift */,
+				846C21B10A8235775C3BDE6B /* GeneratorInteractorProtocol.swift */,
 				C6A452FEE134827EF223403B /* GeneratorInteractor.swift */,
 			);
 			path = Interactor;
@@ -332,26 +329,24 @@
 			files = (
 				007C07652B7E2024000BF046 /* AppDelegate.swift in Sources */,
 				007C07672B7E2024000BF046 /* SceneDelegate.swift in Sources */,
-				2F9B3310A5834000EA2CC9F4 /* GeneratorViewInput.swift in Sources */,
-				940ECC0B87D633C391F1EAC9 /* GeneratorViewOutput.swift in Sources */,
+				2F9B3310A5834000EA2CC9F4 /* GeneratorViewProtocol.swift in Sources */,
+				940ECC0B87D633C391F1EAC9 /* GeneratorPresenterProtocol.swift in Sources */,
 				EB2E1316BB1DA38C87539283 /* GeneratorViewController.swift in Sources */,
-				7ACCB20EF27927614BB140F3 /* GeneratorModuleInput.swift in Sources */,
 				936FDE120534941AB4F70E09 /* GeneratorPresenter.swift in Sources */,
-				8AD4833CA100FFB7E879F23B /* GeneratorInteractorInput.swift in Sources */,
-				88A9F2A91B81E92298C6723B /* GeneratorInteractorOutput.swift in Sources */,
+				8AD4833CA100FFB7E879F23B /* GeneratorInteractorProtocol.swift in Sources */,
 				00A5D60435F0DFA48C4D6AF5 /* GeneratorInteractor.swift in Sources */,
-				2AFEDCA8F0EB36196C692FE7 /* GeneratorRouterInput.swift in Sources */,
+				2AFEDCA8F0EB36196C692FE7 /* GeneratorRouterProtocol.swift in Sources */,
 				7692F9D2BE7673C604047394 /* GeneratorRouter.swift in Sources */,
 				297138122CFC6B22F331A960 /* GeneratorConfigurator.swift in Sources */,
-				4AA9DFB22541BEDCCAE42483 /* DetailsViewInput.swift in Sources */,
-				DAE1D641996FAB0ACB8CF091 /* DetailsViewOutput.swift in Sources */,
+				4AA9DFB22541BEDCCAE42483 /* DetailsViewProtocol.swift in Sources */,
+				DAE1D641996FAB0ACB8CF091 /* DetailsPresenterProtocol.swift in Sources */,
 				40B337DC45A205DE055D9D94 /* DetailsViewController.swift in Sources */,
-				543471E7AFAA5AF2A73D75AC /* DetailsModuleInput.swift in Sources */,
 				E0F047EE4D267C15CC9AE6B6 /* DetailsPresenter.swift in Sources */,
-				44B1E5684834C3AAE40FF70E /* DetailsInteractorInput.swift in Sources */,
-				6D5F74EEDB7DD99F2C239C36 /* DetailsInteractorOutput.swift in Sources */,
+				6D5F74EEDB7DD99F2C239C36 /* DetailsInteractorProtocol.swift in Sources */,
 				36BC165AB67999F0FB571205 /* DetailsInteractor.swift in Sources */,
-				4D817B1EE7651CA206E4BCEB /* DetailsRouterInput.swift in Sources */,
+				007C07862B7E6611000BF046 /* GeneratorConfiguratorProtocol.swift in Sources */,
+				4D817B1EE7651CA206E4BCEB /* DetailsRouterProtocol.swift in Sources */,
+				007C07882B7E785D000BF046 /* DetailsConfiguratorProtocol.swift in Sources */,
 				EB7FCC88097C07AE39ED6B55 /* DetailsRouter.swift in Sources */,
 				5150F7CA48D555189A7A8FCD /* DetailsConfigurator.swift in Sources */,
 			);
