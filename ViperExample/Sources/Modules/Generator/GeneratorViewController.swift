@@ -9,10 +9,19 @@
 import UIKit
 import SnapKit
 
+// MARK: - Protocol
+
+protocol GeneratorViewProtocol: AnyObject {
+    func setupInitialState()
+    func setSubtitleText(text: String)
+    func setViperImage(imageName: String)
+}
+
+// MARK: - Implementation
+
 final class GeneratorViewController: UIViewController {
 
     var presenter: GeneratorPresenterProtocol!
-    let configurator: GeneratorConfiguratorProtocol = GeneratorConfigurator()
 
     // MARK: - Outlets
 
@@ -72,7 +81,6 @@ final class GeneratorViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        configurator.configure(with: self)
 
         setupHierarchy()
         setupLayout()

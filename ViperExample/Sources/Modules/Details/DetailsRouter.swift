@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol DetailsRouterProtocol {
+    func closeCurrentScene()
+}
+
 final class DetailsRouter: DetailsRouterProtocol {
     var navigationController: UINavigationController?
 

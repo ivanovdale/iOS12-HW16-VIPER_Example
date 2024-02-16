@@ -6,6 +6,19 @@
 //  Copyright © 2024 mobdevfactory12. All rights reserved.
 //
 
+// MARK: - Protocol
+
+protocol GeneratorPresenterProtocol: AnyObject {
+    func configureView()
+    func generateRandomViperButtonTapped()
+    func learnMoreButtonTapped()
+
+    func updateViperNumberValue()
+    func updateViperImageNameValue()
+}
+
+// MARK: - Implementation
+
 final class GeneratorPresenter: GeneratorPresenterProtocol {
     weak var view: GeneratorViewProtocol!
     var interactor: GeneratorInteractorProtocol!

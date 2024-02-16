@@ -9,10 +9,11 @@
 import UIKit
 import SnapKit
 
+protocol DetailsViewProtocol: AnyObject { }
+
 final class DetailsViewController: UIViewController, DetailsViewProtocol {
 
     var presenter: DetailsPresenterProtocol!
-    let configurator: DetailsConfiguratorProtocol = DetailsConfigurator()
 
     var avatarName: String? {
         didSet {
@@ -62,7 +63,6 @@ final class DetailsViewController: UIViewController, DetailsViewProtocol {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        configurator.configure(with: self)
         setupHierarchy()
         setupLayout()
         setupView()

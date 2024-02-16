@@ -12,8 +12,15 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
-        let initialViewController = GeneratorViewController()
-        let navigationController = UINavigationController(rootViewController: initialViewController)
+
+        let navigationController = UINavigationController()
+
+        let detailsViewController = DetailsModuleBuilder.build(navigationController: navigationController)
+        let generatorViewController = GeneratorModuleBuilder.build(
+            navigationController: navigationController,
+            detailsViewController: detailsViewController
+        )
+        navigationController.viewControllers = [generatorViewController]
 
         window = UIWindow(windowScene: windowScene)
         window?.rootViewController = navigationController
