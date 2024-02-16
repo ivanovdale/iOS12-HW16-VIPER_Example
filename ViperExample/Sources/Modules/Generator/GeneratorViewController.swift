@@ -22,7 +22,7 @@ protocol GeneratorViewProtocol: AnyObject {
 final class GeneratorViewController: UIViewController {
 
     var presenter: GeneratorPresenterProtocol!
-    let configurator: GeneratorConfiguratorProtocol = GeneratorConfigurator()
+    let configurator: GeneratorModuleBuilderProtocol = GeneratorModuleBuilder()
 
     // MARK: - Outlets
 
@@ -82,7 +82,7 @@ final class GeneratorViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        configurator.configure(with: self)
+        configurator.build(with: self)
 
         setupHierarchy()
         setupLayout()

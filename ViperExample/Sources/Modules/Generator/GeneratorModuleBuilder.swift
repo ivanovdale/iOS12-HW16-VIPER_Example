@@ -8,14 +8,14 @@
 
 // MARK: - Protocol
 
-protocol GeneratorConfiguratorProtocol {
-    func configure(with viewController: GeneratorViewController)
+protocol GeneratorModuleBuilderProtocol {
+    func build(with viewController: GeneratorViewController)
 }
 
 // MARK: - Implementation
 
-final class GeneratorConfigurator: GeneratorConfiguratorProtocol {
-    func configure(with viewController: GeneratorViewController) {
+final class GeneratorModuleBuilder: GeneratorModuleBuilderProtocol {
+    func build(with viewController: GeneratorViewController) {
         let router = GeneratorRouter()
         router.navigationController = viewController.navigationController
 

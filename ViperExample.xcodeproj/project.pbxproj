@@ -13,10 +13,10 @@
 		007C07712B7E2029000BF046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007C076F2B7E2029000BF046 /* LaunchScreen.storyboard */; };
 		007C07842B7E470B000BF046 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 007C07832B7E470B000BF046 /* SnapKit */; };
 		00A5D60435F0DFA48C4D6AF5 /* GeneratorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A452FEE134827EF223403B /* GeneratorInteractor.swift */; };
-		297138122CFC6B22F331A960 /* GeneratorConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E04E8E9A965F55892E0B4 /* GeneratorConfigurator.swift */; };
+		297138122CFC6B22F331A960 /* GeneratorModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E04E8E9A965F55892E0B4 /* GeneratorModuleBuilder.swift */; };
 		36BC165AB67999F0FB571205 /* DetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F53E6221172737D16BEA7 /* DetailsInteractor.swift */; };
 		40B337DC45A205DE055D9D94 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB73A87CCFAF68A660CE87 /* DetailsViewController.swift */; };
-		5150F7CA48D555189A7A8FCD /* DetailsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3028D8220F56D0B902875D6 /* DetailsConfigurator.swift */; };
+		5150F7CA48D555189A7A8FCD /* DetailsModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3028D8220F56D0B902875D6 /* DetailsModuleBuilder.swift */; };
 		7692F9D2BE7673C604047394 /* GeneratorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278D7706706DF345DC565394 /* GeneratorRouter.swift */; };
 		936FDE120534941AB4F70E09 /* GeneratorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF392C886664C6C2A391FF /* GeneratorPresenter.swift */; };
 		E0F047EE4D267C15CC9AE6B6 /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825162D5D9CAFD51F8226A6 /* DetailsPresenter.swift */; };
@@ -36,9 +36,9 @@
 		278D7706706DF345DC565394 /* GeneratorRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorRouter.swift; sourceTree = "<group>"; };
 		3AAB73A87CCFAF68A660CE87 /* DetailsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		5DAA369E6F975874F8555B1F /* DetailsRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsRouter.swift; sourceTree = "<group>"; };
-		712E04E8E9A965F55892E0B4 /* GeneratorConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorConfigurator.swift; sourceTree = "<group>"; };
+		712E04E8E9A965F55892E0B4 /* GeneratorModuleBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorModuleBuilder.swift; sourceTree = "<group>"; };
 		B825162D5D9CAFD51F8226A6 /* DetailsPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
-		C3028D8220F56D0B902875D6 /* DetailsConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsConfigurator.swift; sourceTree = "<group>"; };
+		C3028D8220F56D0B902875D6 /* DetailsModuleBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsModuleBuilder.swift; sourceTree = "<group>"; };
 		C6A452FEE134827EF223403B /* GeneratorInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorInteractor.swift; sourceTree = "<group>"; };
 		F9AF392C886664C6C2A391FF /* GeneratorPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,7 +124,7 @@
 				B825162D5D9CAFD51F8226A6 /* DetailsPresenter.swift */,
 				249F53E6221172737D16BEA7 /* DetailsInteractor.swift */,
 				5DAA369E6F975874F8555B1F /* DetailsRouter.swift */,
-				C3028D8220F56D0B902875D6 /* DetailsConfigurator.swift */,
+				C3028D8220F56D0B902875D6 /* DetailsModuleBuilder.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -132,7 +132,7 @@
 		63A4485E447CDDECBE804331 /* Generator */ = {
 			isa = PBXGroup;
 			children = (
-				712E04E8E9A965F55892E0B4 /* GeneratorConfigurator.swift */,
+				712E04E8E9A965F55892E0B4 /* GeneratorModuleBuilder.swift */,
 				278D7706706DF345DC565394 /* GeneratorRouter.swift */,
 				C6A452FEE134827EF223403B /* GeneratorInteractor.swift */,
 				F9AF392C886664C6C2A391FF /* GeneratorPresenter.swift */,
@@ -223,12 +223,12 @@
 				936FDE120534941AB4F70E09 /* GeneratorPresenter.swift in Sources */,
 				00A5D60435F0DFA48C4D6AF5 /* GeneratorInteractor.swift in Sources */,
 				7692F9D2BE7673C604047394 /* GeneratorRouter.swift in Sources */,
-				297138122CFC6B22F331A960 /* GeneratorConfigurator.swift in Sources */,
+				297138122CFC6B22F331A960 /* GeneratorModuleBuilder.swift in Sources */,
 				40B337DC45A205DE055D9D94 /* DetailsViewController.swift in Sources */,
 				E0F047EE4D267C15CC9AE6B6 /* DetailsPresenter.swift in Sources */,
 				36BC165AB67999F0FB571205 /* DetailsInteractor.swift in Sources */,
 				EB7FCC88097C07AE39ED6B55 /* DetailsRouter.swift in Sources */,
-				5150F7CA48D555189A7A8FCD /* DetailsConfigurator.swift in Sources */,
+				5150F7CA48D555189A7A8FCD /* DetailsModuleBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
