@@ -6,6 +6,10 @@
 //  Copyright © 2024 mobdevfactory12. All rights reserved.
 //
 
+protocol DetailsPresenterProtocol: AnyObject {
+    func okButtonPressed()
+}
+
 final class DetailsPresenter: DetailsPresenterProtocol {
     weak var view: DetailsViewProtocol!
     var interactor: DetailsInteractorProtocol!

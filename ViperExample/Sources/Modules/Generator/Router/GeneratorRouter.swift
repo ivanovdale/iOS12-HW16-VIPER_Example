@@ -8,6 +8,14 @@
 
 import UIKit
 
+// MARK: - Protocol
+
+protocol GeneratorRouterProtocol {
+    func showDetailsScene(avatarName: String, viperNumber: Int)
+}
+
+// MARK: - Implementation
+
 final class GeneratorRouter: GeneratorRouterProtocol {
     var navigationController: UINavigationController?
 

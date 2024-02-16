@@ -6,6 +6,14 @@
 //  Copyright © 2024 mobdevfactory12. All rights reserved.
 //
 
+// MARK: - Protocol
+
+protocol GeneratorConfiguratorProtocol {
+    func configure(with viewController: GeneratorViewController)
+}
+
+// MARK: - Implementation
+
 final class GeneratorConfigurator: GeneratorConfiguratorProtocol {
     func configure(with viewController: GeneratorViewController) {
         let router = GeneratorRouter()

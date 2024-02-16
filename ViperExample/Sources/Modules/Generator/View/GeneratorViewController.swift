@@ -9,6 +9,16 @@
 import UIKit
 import SnapKit
 
+// MARK: - Protocol
+
+protocol GeneratorViewProtocol: AnyObject {
+    func setupInitialState()
+    func setSubtitleText(text: String)
+    func setViperImage(imageName: String)
+}
+
+// MARK: - Implementation
+
 final class GeneratorViewController: UIViewController {
 
     var presenter: GeneratorPresenterProtocol!

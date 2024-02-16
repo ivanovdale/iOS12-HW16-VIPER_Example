@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol DetailsConfiguratorProtocol {
+    func configure(with viewController: DetailsViewController)
+}
+
 final class DetailsConfigurator: DetailsConfiguratorProtocol {
     func configure(with viewController: DetailsViewController) {
         let router = DetailsRouter()

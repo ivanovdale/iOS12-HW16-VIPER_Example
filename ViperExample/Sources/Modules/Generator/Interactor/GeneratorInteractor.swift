@@ -6,6 +6,19 @@
 //  Copyright © 2024 mobdevfactory12. All rights reserved.
 //
 
+// MARK: - Protocol
+
+protocol GeneratorInteractorProtocol {
+    var viperImageName: String { get }
+    var viperNumber: Int { get }
+    var maximalViperNumber: Int { get }
+
+    func getViperImageName()
+    func getViperNumber()
+}
+
+// MARK: - Implementation
+
 final class GeneratorInteractor: GeneratorInteractorProtocol {
     var viperImageName = ""
     var viperNumber: Int

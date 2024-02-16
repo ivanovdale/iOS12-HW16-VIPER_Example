@@ -9,6 +9,8 @@
 import UIKit
 import SnapKit
 
+protocol DetailsViewProtocol: AnyObject { }
+
 final class DetailsViewController: UIViewController, DetailsViewProtocol {
 
     var presenter: DetailsPresenterProtocol!
