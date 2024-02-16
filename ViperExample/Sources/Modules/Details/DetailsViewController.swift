@@ -36,6 +36,7 @@ final class DetailsViewController: UIViewController, DetailsViewProtocol {
         imageView.layer.borderWidth = Constants.avatarBorderWidth
         imageView.layer.borderColor = Constants.avatarBorderColor.cgColor
         imageView.clipsToBounds = true
+        imageView.contentMode = .scaleAspectFill
 
         return imageView
     }()
@@ -99,7 +100,7 @@ final class DetailsViewController: UIViewController, DetailsViewProtocol {
         okButton.snp.makeConstraints { make in
             make.leading.equalTo(view).offset(Constants.buttonOffset)
             make.trailing.equalTo(view).offset(-Constants.buttonOffset)
-            make.bottom.equalTo(view).offset(-Constants.buttonOffsetBottom)
+            make.bottom.equalTo(view.safeAreaLayoutGuide).offset(-Constants.buttonOffsetBottom)
             make.height.equalTo(Constants.buttonHeight)
         }
     }
@@ -137,8 +138,8 @@ fileprivate enum Constants {
     static let avatarBorderColor = UIColor.systemGray3
     static let titleTopOffset = 16
     static let buttonOffset = 22
-    static let buttonOffsetBottom = 12
-    static let buttonHeight = CGFloat(44)
+    static let buttonOffsetBottom = 22
+    static let buttonHeight = CGFloat(56)
 
     // MARK: Style
 

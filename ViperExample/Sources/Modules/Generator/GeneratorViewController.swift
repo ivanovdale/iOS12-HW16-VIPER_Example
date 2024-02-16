@@ -103,7 +103,8 @@ final class GeneratorViewController: UIViewController {
 
     private func setupLayout() {
         viperImage.snp.makeConstraints { make in
-            make.leading.trailing.top.equalTo(view)
+            make.top.equalTo(view.safeAreaLayoutGuide)
+            make.leading.trailing.equalTo(view)
             make.height.equalTo(view).multipliedBy(Constants.imageHeightFactor)
         }
         
@@ -127,7 +128,7 @@ final class GeneratorViewController: UIViewController {
         learnMoreButton.snp.makeConstraints { make in
             make.leading.equalTo(view).offset(Constants.buttonOffset)
             make.trailing.equalTo(view).offset(-Constants.buttonOffset)
-            make.bottom.equalTo(view).offset(-Constants.buttonOffset)
+            make.bottom.equalTo(view.safeAreaLayoutGuide).offset(-Constants.buttonOffset)
             make.height.equalTo(Constants.buttonHeight)
         }
 
@@ -180,8 +181,8 @@ fileprivate enum Constants {
     static let titleTopOffset = 30
     static let subTitleTopOffset = 10
     static let buttonOffset = 22
-    static let buttonOffsetBottom = 12
-    static let buttonHeight = CGFloat(44)
+    static let buttonOffsetBottom = 22
+    static let buttonHeight = CGFloat(56)
 
     // MARK: Style
 
