@@ -117,108 +117,28 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
-		0C4AAB6D1319CD9F8B8468CD /* Configurator */ = {
-			isa = PBXGroup;
-			children = (
-				712E04E8E9A965F55892E0B4 /* GeneratorConfigurator.swift */,
-			);
-			path = Configurator;
-			sourceTree = "<group>";
-		};
-		0DCC828765977CFA6CA73345 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				278D7706706DF345DC565394 /* GeneratorRouter.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
 		16C19C010408A84FD5C5441F /* Details */ = {
 			isa = PBXGroup;
 			children = (
-				3F54AC038C7F7AD2AA3CC22D /* View */,
-				AF5353F3F6FBCCC4C5A07A7C /* Presenter */,
-				5DAC685800CB0935801F38A5 /* Interactor */,
-				39615E6B17644C97E00D82BB /* Router */,
-				77A44881A5358FBC40904C91 /* Configurator */,
+				3AAB73A87CCFAF68A660CE87 /* DetailsViewController.swift */,
+				B825162D5D9CAFD51F8226A6 /* DetailsPresenter.swift */,
+				249F53E6221172737D16BEA7 /* DetailsInteractor.swift */,
+				5DAA369E6F975874F8555B1F /* DetailsRouter.swift */,
+				C3028D8220F56D0B902875D6 /* DetailsConfigurator.swift */,
 			);
 			path = Details;
-			sourceTree = "<group>";
-		};
-		39615E6B17644C97E00D82BB /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				5DAA369E6F975874F8555B1F /* DetailsRouter.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
-		3F54AC038C7F7AD2AA3CC22D /* View */ = {
-			isa = PBXGroup;
-			children = (
-				3AAB73A87CCFAF68A660CE87 /* DetailsViewController.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		5DAC685800CB0935801F38A5 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				249F53E6221172737D16BEA7 /* DetailsInteractor.swift */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		5EBAD2D545599A7FB5FFFB69 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2705FB2C54C2DCCC707CC283 /* GeneratorViewController.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		63A4485E447CDDECBE804331 /* Generator */ = {
 			isa = PBXGroup;
 			children = (
-				5EBAD2D545599A7FB5FFFB69 /* View */,
-				84E94D956EE509E4B3F240EF /* Presenter */,
-				DC4DCA4EE87F4D386E274CCC /* Interactor */,
-				0DCC828765977CFA6CA73345 /* Router */,
-				0C4AAB6D1319CD9F8B8468CD /* Configurator */,
+				712E04E8E9A965F55892E0B4 /* GeneratorConfigurator.swift */,
+				278D7706706DF345DC565394 /* GeneratorRouter.swift */,
+				C6A452FEE134827EF223403B /* GeneratorInteractor.swift */,
+				F9AF392C886664C6C2A391FF /* GeneratorPresenter.swift */,
+				2705FB2C54C2DCCC707CC283 /* GeneratorViewController.swift */,
 			);
 			path = Generator;
-			sourceTree = "<group>";
-		};
-		77A44881A5358FBC40904C91 /* Configurator */ = {
-			isa = PBXGroup;
-			children = (
-				C3028D8220F56D0B902875D6 /* DetailsConfigurator.swift */,
-			);
-			path = Configurator;
-			sourceTree = "<group>";
-		};
-		84E94D956EE509E4B3F240EF /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				F9AF392C886664C6C2A391FF /* GeneratorPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		AF5353F3F6FBCCC4C5A07A7C /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				B825162D5D9CAFD51F8226A6 /* DetailsPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		DC4DCA4EE87F4D386E274CCC /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				C6A452FEE134827EF223403B /* GeneratorInteractor.swift */,
-			);
-			path = Interactor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
