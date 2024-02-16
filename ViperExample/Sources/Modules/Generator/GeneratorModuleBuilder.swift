@@ -6,18 +6,29 @@
 //  Copyright © 2024 mobdevfactory12. All rights reserved.
 //
 
+import UIKit
+
 // MARK: - Protocol
 
 protocol GeneratorModuleBuilderProtocol {
-    func build(with viewController: GeneratorViewController)
+    static func build(
+        navigationController: UINavigationController,
+        detailsViewController: DetailsViewController
+    ) -> GeneratorViewController
 }
 
 // MARK: - Implementation
 
 final class GeneratorModuleBuilder: GeneratorModuleBuilderProtocol {
-    func build(with viewController: GeneratorViewController) {
+    static func build(
+        navigationController: UINavigationController,
+        detailsViewController: DetailsViewController
+    ) -> GeneratorViewController {
+        let viewController = GeneratorViewController()
+
         let router = GeneratorRouter()
-        router.navigationController = viewController.navigationController
+        router.navigationController = navigationController
+        router.detailsViewController = detailsViewController
 
         let presenter = GeneratorPresenter()
         presenter.view = viewController
@@ -28,5 +39,7 @@ final class GeneratorModuleBuilder: GeneratorModuleBuilderProtocol {
 
         presenter.interactor = interactor
         viewController.presenter = presenter
+
+        return viewController
     }
 }

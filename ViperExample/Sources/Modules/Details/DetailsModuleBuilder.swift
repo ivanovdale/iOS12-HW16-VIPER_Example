@@ -9,13 +9,15 @@
 import UIKit
 
 protocol DetailsModuleBuilderProtocol {
-    func build(with viewController: DetailsViewController)
+    static func build(navigationController: UINavigationController) -> DetailsViewController
 }
 
 final class DetailsModuleBuilder: DetailsModuleBuilderProtocol {
-    func build(with viewController: DetailsViewController) {
+    static func build(navigationController: UINavigationController) -> DetailsViewController {
+        let viewController = DetailsViewController()
+
         let router = DetailsRouter()
-        router.navigationController = viewController.navigationController
+        router.navigationController = navigationController
 
         let presenter = DetailsPresenter()
         presenter.view = viewController
@@ -26,5 +28,7 @@ final class DetailsModuleBuilder: DetailsModuleBuilderProtocol {
 
         presenter.interactor = interactor
         viewController.presenter = presenter
+
+        return viewController
     }
 }

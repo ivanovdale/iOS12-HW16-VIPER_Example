@@ -14,7 +14,6 @@ protocol DetailsViewProtocol: AnyObject { }
 final class DetailsViewController: UIViewController, DetailsViewProtocol {
 
     var presenter: DetailsPresenterProtocol!
-    let configurator: DetailsModuleBuilderProtocol = DetailsModuleBuilder()
 
     var avatarName: String? {
         didSet {
@@ -64,7 +63,6 @@ final class DetailsViewController: UIViewController, DetailsViewProtocol {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        configurator.build(with: self)
         setupHierarchy()
         setupLayout()
         setupView()
