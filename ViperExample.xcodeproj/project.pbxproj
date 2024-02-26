@@ -9,21 +9,38 @@
 /* Begin PBXBuildFile section */
 		007C07652B7E2024000BF046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C07642B7E2024000BF046 /* AppDelegate.swift */; };
 		007C07672B7E2024000BF046 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C07662B7E2024000BF046 /* SceneDelegate.swift */; };
-		007C07692B7E2024000BF046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C07682B7E2024000BF046 /* ViewController.swift */; };
-		007C076C2B7E2024000BF046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007C076A2B7E2024000BF046 /* Main.storyboard */; };
 		007C076E2B7E2029000BF046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007C076D2B7E2029000BF046 /* Assets.xcassets */; };
 		007C07712B7E2029000BF046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007C076F2B7E2029000BF046 /* LaunchScreen.storyboard */; };
+		007C07842B7E470B000BF046 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 007C07832B7E470B000BF046 /* SnapKit */; };
+		00A5D60435F0DFA48C4D6AF5 /* GeneratorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A452FEE134827EF223403B /* GeneratorInteractor.swift */; };
+		297138122CFC6B22F331A960 /* GeneratorModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E04E8E9A965F55892E0B4 /* GeneratorModuleBuilder.swift */; };
+		36BC165AB67999F0FB571205 /* DetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F53E6221172737D16BEA7 /* DetailsInteractor.swift */; };
+		40B337DC45A205DE055D9D94 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB73A87CCFAF68A660CE87 /* DetailsViewController.swift */; };
+		5150F7CA48D555189A7A8FCD /* DetailsModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3028D8220F56D0B902875D6 /* DetailsModuleBuilder.swift */; };
+		7692F9D2BE7673C604047394 /* GeneratorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278D7706706DF345DC565394 /* GeneratorRouter.swift */; };
+		936FDE120534941AB4F70E09 /* GeneratorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF392C886664C6C2A391FF /* GeneratorPresenter.swift */; };
+		E0F047EE4D267C15CC9AE6B6 /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825162D5D9CAFD51F8226A6 /* DetailsPresenter.swift */; };
+		EB2E1316BB1DA38C87539283 /* GeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2705FB2C54C2DCCC707CC283 /* GeneratorViewController.swift */; };
+		EB7FCC88097C07AE39ED6B55 /* DetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAA369E6F975874F8555B1F /* DetailsRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		007C07612B7E2024000BF046 /* ViperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		007C07642B7E2024000BF046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		007C07662B7E2024000BF046 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		007C07682B7E2024000BF046 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		007C076B2B7E2024000BF046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		007C076D2B7E2029000BF046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		007C07702B7E2029000BF046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		007C07722B7E2029000BF046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007C07812B7E36BA000BF046 /* ViperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		249F53E6221172737D16BEA7 /* DetailsInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsInteractor.swift; sourceTree = "<group>"; };
+		2705FB2C54C2DCCC707CC283 /* GeneratorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorViewController.swift; sourceTree = "<group>"; };
+		278D7706706DF345DC565394 /* GeneratorRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorRouter.swift; sourceTree = "<group>"; };
+		3AAB73A87CCFAF68A660CE87 /* DetailsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		5DAA369E6F975874F8555B1F /* DetailsRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsRouter.swift; sourceTree = "<group>"; };
+		712E04E8E9A965F55892E0B4 /* GeneratorModuleBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorModuleBuilder.swift; sourceTree = "<group>"; };
+		B825162D5D9CAFD51F8226A6 /* DetailsPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
+		C3028D8220F56D0B902875D6 /* DetailsModuleBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsModuleBuilder.swift; sourceTree = "<group>"; };
+		C6A452FEE134827EF223403B /* GeneratorInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorInteractor.swift; sourceTree = "<group>"; };
+		F9AF392C886664C6C2A391FF /* GeneratorPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneratorPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007C07842B7E470B000BF046 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,30 +59,86 @@
 			isa = PBXGroup;
 			children = (
 				007C07632B7E2024000BF046 /* ViperExample */,
-				007C07622B7E2024000BF046 /* Products */,
+				007C07812B7E36BA000BF046 /* ViperExample.app */,
 			);
-			sourceTree = "<group>";
-		};
-		007C07622B7E2024000BF046 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				007C07612B7E2024000BF046 /* ViperExample.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		007C07632B7E2024000BF046 /* ViperExample */ = {
 			isa = PBXGroup;
 			children = (
-				007C07642B7E2024000BF046 /* AppDelegate.swift */,
-				007C07662B7E2024000BF046 /* SceneDelegate.swift */,
-				007C07682B7E2024000BF046 /* ViewController.swift */,
-				007C076A2B7E2024000BF046 /* Main.storyboard */,
-				007C076D2B7E2029000BF046 /* Assets.xcassets */,
-				007C076F2B7E2029000BF046 /* LaunchScreen.storyboard */,
-				007C07722B7E2029000BF046 /* Info.plist */,
+				007C07782B7E22F0000BF046 /* Sources */,
+				007C077F2B7E2452000BF046 /* Resources */,
 			);
 			path = ViperExample;
+			sourceTree = "<group>";
+		};
+		007C07782B7E22F0000BF046 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				007C07792B7E22F8000BF046 /* App */,
+				007C077A2B7E23AD000BF046 /* Modules */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		007C07792B7E22F8000BF046 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				007C07642B7E2024000BF046 /* AppDelegate.swift */,
+				007C07662B7E2024000BF046 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		007C077A2B7E23AD000BF046 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				16C19C010408A84FD5C5441F /* Details */,
+				63A4485E447CDDECBE804331 /* Generator */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		007C077F2B7E2452000BF046 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				007C076D2B7E2029000BF046 /* Assets.xcassets */,
+				007C076F2B7E2029000BF046 /* LaunchScreen.storyboard */,
+				007C07802B7E2461000BF046 /* Configuration */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		007C07802B7E2461000BF046 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				007C07722B7E2029000BF046 /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		16C19C010408A84FD5C5441F /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				3AAB73A87CCFAF68A660CE87 /* DetailsViewController.swift */,
+				B825162D5D9CAFD51F8226A6 /* DetailsPresenter.swift */,
+				249F53E6221172737D16BEA7 /* DetailsInteractor.swift */,
+				5DAA369E6F975874F8555B1F /* DetailsRouter.swift */,
+				C3028D8220F56D0B902875D6 /* DetailsModuleBuilder.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		63A4485E447CDDECBE804331 /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				712E04E8E9A965F55892E0B4 /* GeneratorModuleBuilder.swift */,
+				278D7706706DF345DC565394 /* GeneratorRouter.swift */,
+				C6A452FEE134827EF223403B /* GeneratorInteractor.swift */,
+				F9AF392C886664C6C2A391FF /* GeneratorPresenter.swift */,
+				2705FB2C54C2DCCC707CC283 /* GeneratorViewController.swift */,
+			);
+			path = Generator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,8 +157,11 @@
 			dependencies = (
 			);
 			name = ViperExample;
+			packageProductDependencies = (
+				007C07832B7E470B000BF046 /* SnapKit */,
+			);
 			productName = ViperExample;
-			productReference = 007C07612B7E2024000BF046 /* ViperExample.app */;
+			productReference = 007C07812B7E36BA000BF046 /* ViperExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +188,10 @@
 				Base,
 			);
 			mainGroup = 007C07582B7E2024000BF046;
-			productRefGroup = 007C07622B7E2024000BF046 /* Products */;
+			packageReferences = (
+				007C07822B7E470B000BF046 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 007C07582B7E2024000BF046;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -127,7 +207,6 @@
 			files = (
 				007C07712B7E2029000BF046 /* LaunchScreen.storyboard in Resources */,
 				007C076E2B7E2029000BF046 /* Assets.xcassets in Resources */,
-				007C076C2B7E2024000BF046 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +217,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				007C07692B7E2024000BF046 /* ViewController.swift in Sources */,
 				007C07652B7E2024000BF046 /* AppDelegate.swift in Sources */,
 				007C07672B7E2024000BF046 /* SceneDelegate.swift in Sources */,
+				EB2E1316BB1DA38C87539283 /* GeneratorViewController.swift in Sources */,
+				936FDE120534941AB4F70E09 /* GeneratorPresenter.swift in Sources */,
+				00A5D60435F0DFA48C4D6AF5 /* GeneratorInteractor.swift in Sources */,
+				7692F9D2BE7673C604047394 /* GeneratorRouter.swift in Sources */,
+				297138122CFC6B22F331A960 /* GeneratorModuleBuilder.swift in Sources */,
+				40B337DC45A205DE055D9D94 /* DetailsViewController.swift in Sources */,
+				E0F047EE4D267C15CC9AE6B6 /* DetailsPresenter.swift in Sources */,
+				36BC165AB67999F0FB571205 /* DetailsInteractor.swift in Sources */,
+				EB7FCC88097C07AE39ED6B55 /* DetailsRouter.swift in Sources */,
+				5150F7CA48D555189A7A8FCD /* DetailsModuleBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		007C076A2B7E2024000BF046 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				007C076B2B7E2024000BF046 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		007C076F2B7E2029000BF046 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,12 +374,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LLM6YPG7Q7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ViperExample/Info.plist;
+				INFOPLIST_FILE = ViperExample/Resources/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +386,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ViperExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,12 +405,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LLM6YPG7Q7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ViperExample/Info.plist;
+				INFOPLIST_FILE = ViperExample/Resources/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +417,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ViperExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -363,6 +449,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		007C07822B7E470B000BF046 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		007C07832B7E470B000BF046 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 007C07822B7E470B000BF046 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 007C07592B7E2024000BF046 /* Project object */;
 }
